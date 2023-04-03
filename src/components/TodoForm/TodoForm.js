@@ -40,6 +40,7 @@ const TodoForm = (props) => {
               maxLength={300}
               autoComplete="off"
             />
+             
           </>
         ) : (
           <>
@@ -54,6 +55,8 @@ const TodoForm = (props) => {
               maxLength={300}
               autoComplete="off"
             />
+            <button className="add-btn" 
+            onClick={handleSubmit}>+</button>   
           </>
         )}
       </div>

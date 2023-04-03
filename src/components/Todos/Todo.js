@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import TodoForm from "./TodoForm";
-import TodoList from "./TodoList";
+import TodoForm from "../TodoForm/TodoForm";
+import TodoList from "../TodoList/TodoList";
 import "./Todo.css";
 
 const LOCAL_STORAGE_KEY = "react-todo-list-task";
@@ -48,7 +48,7 @@ const Todo = () => {
 
   return (
     <section className="main-container">
-      <h1 className="todolist-header">TODO List</h1>
+      <h1 className="todolist-header">TODO LIST</h1>
       <TodoForm onSubmit={addTodo} />
       <TodoList
         todos={todos}

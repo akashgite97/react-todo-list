@@ -1,7 +1,7 @@
 /* todo list */
 
 .todo-list {
-  margin-top: 40px;
+  margin: 40px 14%;
 }
 
 .todo-completed {
@@ -10,6 +10,7 @@
 
 .todo-pending {
   border: 2px darkslategray;
+  margin-top: 5px;
 }
 
 .todo-completed,
@@ -62,7 +63,7 @@
 }
 
 .todo-mark-icon:hover {
-  color: blue;
+  color: green;
 }
 
 .todo-edit-delete-icon {
